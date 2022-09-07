@@ -1,6 +1,14 @@
 body {
-  background-color: rgba(23, 23, 66, 0.991);
+  background-color: rgba(43, 43, 114, 0.991);
 }
+
 h1 {
   color: rgba(124, 244, 113, 0.806);
+}
+.icon {
+  color: rgba(124, 244, 113, 0.806);
+}
+
+.intro {
+  color: rgba(239, 239, 247, 0.991);
 }
