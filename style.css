@@ -1,14 +1,7 @@
-body {
-}
-
 h1 {
   color: rgba(124, 244, 113, 0.806);
   background-color: rgba(43, 43, 114, 0.991);
 }
 .icon {
-  color: rgba(124, 244, 113, 0.806);
-}
-
-.intro {
   color: rgba(43, 43, 114, 0.991);
 }
