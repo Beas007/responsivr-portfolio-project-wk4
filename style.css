@@ -11,12 +11,17 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
 }
+.main-body h2 {
+  font-family: var(--heading-font-family);
+  font-size: 50px;
+  text-align: left;
+}
 h3 {
   font-family: var(--default-font-family);
   font-size: 24px;
   line-height: 36px;
 }
-p {
+.first-line {
   font-size: 30px;
 }
 button {
@@ -31,15 +36,20 @@ button {
   background: var(--branding-color);
   color: white;
   text-align: center;
-  padding: 160px 0px;
+  padding: 80px 20px;
 }
-.hero p {
+.hero p.first-line {
   font-weight: bold;
   font-size: 30px;
+  background: var(--branding-color);
+  text-align: center;
 }
 .hero h1 {
   line-height: 120px;
   font-size: 100px;
+}
+.hero h3 {
+  opacity: 100%;
 }
 .hero button {
   line-height: 27px;
@@ -48,4 +58,64 @@ button {
 }
 .hero button:hover {
   background: white;
+}
+p {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--branding-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.primary-link:hover {
+  color: var(--branding-color);
+  background: var(--secondary-color);
+}
+.img-fluid {
+  border-radius: 4px;
+  display: block;
+  margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+  h3 {
+    font-size: 28px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  .main-body h2 {
+    font-size: 34px;
+    text-align: center;
+    font-weight: bold;
+  }
+  p {
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 60px;
+  }
+  .hero h3 {
+    font-size: 20px;
+  }
+  .hero p.first-line {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .second {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
