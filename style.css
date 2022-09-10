@@ -1,7 +1,51 @@
-h1 {
-  color: rgba(124, 244, 113, 0.806);
-  background-color: rgba(43, 43, 114, 0.991);
+:root {
+  --branding-color: #0b3866;
+  --secondary-color: #95f9c3;
+  --heading-font-family: "Dancing Script", cursive;
+  --default-font-family: "M PLUS Rounded 1c", sans-serif;
 }
-.icon {
-  color: rgba(43, 43, 114, 0.991);
+body {
+  font-family: var(--default-font-family);
+}
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+}
+h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 36px;
+}
+p {
+  font-size: 30px;
+}
+button {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  padding: 18px 30px;
+  border-style: none;
+  border-radius: 4px;
+}
+.hero {
+  background: var(--branding-color);
+  color: white;
+  text-align: center;
+  padding: 160px 0px;
+}
+.hero p {
+  font-weight: bold;
+  font-size: 30px;
+}
+.hero h1 {
+  line-height: 120px;
+  font-size: 100px;
+}
+.hero button {
+  line-height: 27px;
+  background: var(--secondary-color);
+  color: var(--branding-color);
+}
+.hero button:hover {
+  background: white;
 }
