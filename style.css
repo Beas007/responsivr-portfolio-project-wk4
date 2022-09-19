@@ -56,6 +56,13 @@ button {
   background: var(--secondary-color);
   color: var(--branding-color);
 }
+.hero a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+.hero a:hover {
+  color: var(--branding-color);
+}
 .hero button:hover {
   background: white;
 }
