@@ -59,7 +59,9 @@ button {
 .hero button:hover {
   background: white;
 }
+
 p {
+  font-family: var(--default-font-family);
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
@@ -85,7 +87,40 @@ p {
   display: block;
   margin-top: 20px;
 }
-
+.about-top {
+  padding: 80px 20px;
+}
+.intro {
+  margin: 30px;
+}
+.about-top img {
+  max-width: 500px;
+}
+.About-section h1 {
+  font-size: 64px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+.About-section h2 {
+  font-family: var(--default-font-family);
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.About-section button {
+  border-radius: 4px;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: var(--default-font-family);
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: #0b3866;
+}
+.About-section button:hover {
+  color: white;
+  background: var(--branding-color);
+}
 @media (max-width: 576px) {
   h3 {
     font-size: 28px;
@@ -95,10 +130,7 @@ p {
     font-size: 48px;
     line-height: 1.5;
   }
-  h2 {
-    font-size: 28px;
-    line-height: 0.8;
-  }
+
   .main-body h2 {
     font-size: 34px;
     text-align: center;
@@ -121,5 +153,8 @@ p {
     display: block;
     text-align: center;
     margin: 0 20px;
+  }
+  .About-section {
+    text-align: center;
   }
 }
