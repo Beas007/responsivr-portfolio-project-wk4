@@ -139,6 +139,7 @@ p {
   p {
     text-align: center;
   }
+  .About-section h1,
   .hero h1 {
     font-size: 60px;
   }
@@ -156,5 +157,8 @@ p {
   }
   .About-section {
     text-align: center;
+  }
+  .About-section h2 {
+    font-size: 30px;
   }
 }
