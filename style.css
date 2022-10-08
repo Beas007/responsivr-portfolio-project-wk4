@@ -67,6 +67,13 @@ button {
   background: white;
 }
 
+.workpage a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+.workpage a:hover {
+  color: white;
+}
 p {
   font-family: var(--default-font-family);
   border-radius: 4px;
