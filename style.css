@@ -115,6 +115,7 @@ p {
   font-weight: bold;
 }
 .contact h3 {
+  color: var(--branding-color);
   font-family: var(--heading-font-family);
   font-weight: bolder;
   font-size: 20px;
