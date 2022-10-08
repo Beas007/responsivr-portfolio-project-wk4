@@ -66,7 +66,10 @@ button {
 .hero button:hover {
   background: white;
 }
-
+.workpage button {
+  display: block;
+  text-align: center;
+}
 .workpage a {
   text-decoration: none;
   color: var(--branding-color);
