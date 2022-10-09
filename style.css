@@ -17,6 +17,9 @@ nav {
 .navbar-brand {
   font-family: var(--heading-font-family);
 }
+a .nav-link {
+  color: var(--branding-color);
+}
 h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
