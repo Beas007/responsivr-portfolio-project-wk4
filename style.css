@@ -52,7 +52,7 @@ button {
   border-radius: 4px;
 }
 footer .contact-box {
-  background: var(--secondary-color);
+  background: #95f9c482;
   padding: 30px;
 }
 footer .contact-box p {
